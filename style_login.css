@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(-90deg, #00b4f8, #016aec);
+}
+/* containner login */
+.log-cont {
+text-align: center;    
+margin: 100px auto;
+background-color: #2a2a2a;
+width: 425px;
+height: 568px;
+color: white;
+padding-top: 50px;
+border-radius: 15px;
+}
+/* texto e icone */ 
+.letrero a,h1{
+    margin: 0px;
+}
+.letrero{
+    margin-bottom: 20px;
+}
+.letrero>img{
+    margin-bottom: 10px;
+}
+.log-text{
+    color: #00a9e0;
+    margin-right: 130px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.usu-text{
+    color: white;
+    margin-left: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+/* resetar formulario materialize */
+input#usuario, input#senha {
+    all: unset;
+  }
+/* formulario */  
+input#senha, input#usuario{
+    background: #3a3a3a;
+    margin: 5px;
+    width: 300px;
+    height: 36px;
+    border-radius: 30px;
+}
+/* botao e texto abaixo */
+#entrar{
+    background: #00a9e0;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: none; 
+    width: 300px;
+    height: 36px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 15px;
+}
+
+.msg-cont {
+    color:#9d9d9d;
+}

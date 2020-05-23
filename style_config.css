@@ -1,0 +1,207 @@
+body{
+    background: #2a2a2a;
+    color: white;
+}
+
+/* Scroll da pagina*/
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+/* menu do site*/
+#slide-out{
+    background: #00b4f8;
+    width: 90px;
+}
+.sidenav li  > i{
+    background-size: 50px;
+    font-size: larger;
+}
+/* titulo e nav do pagina */
+.ico_menu{
+    background: black;
+}
+#nav_menu{
+    background: #2a2a2a;
+    box-shadow: none;
+}
+#log_pag{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+}
+#form_cad{
+ margin-top: 50px;
+}
+@media(max-width: 990px){
+    #log_pag{
+        font-size: 30px;
+    }
+   }
+
+
+
+/* botoes salvar deletar*/
+.bot_form>button{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    color: white;
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+    background: none;
+}
+#bot_salvar:hover{
+    background: #33ffc296;
+    transition: 0.5s;
+}
+#bot_deletar:hover{
+    background: #ff333396;
+    transition: 0.8s;
+}
+
+
+
+
+/* linhas do formulario */
+.input-field input[type]:not([readonly]),
+.input-field input[type]:focus:not([readonly]),
+.input-field textarea:not([readonly]),
+.input-field textarea:focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    box-shadow: none;
+}
+.input-field .prefix.active{
+    color: white;
+}
+.select-wrapper input.select-dropdown:focus{
+    border-bottom: 1px solid white;
+    box-shadow: none;
+}
+
+/* textos do formulario*/
+.row>div>input{
+    color: white;
+}
+.input-field input[type=text]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+    color: white !important;
+}
+.input-field input[type=time]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+    color: white !important;
+}
+
+
+/* OPCOES DO SELECT DROPDONW*/
+.dropdown-content li>span {
+    color: #000 !important;
+  }
+  .select-wrapper input.select-dropdown {
+      border-bottom: 1px solid #fff;
+  }
+  .dropdown-content li>a {
+    color: #000 !important;
+  }
+  
+  .select-content li>span {
+    color: #000 !important;
+  }
+  
+  .select-content li>a {
+    color: #000 !important;
+  }
+  .dropdown-content li {
+      clear: both;
+      color: rgba(0,0,0,0.87);
+      cursor: pointer;
+      min-height: 50px;
+      line-height: 1.5rem;
+      width: 100%;
+      text-align: left;
+  }
+/* cor do texto de opçoes*/
+.select-wrapper>input{
+    color: #868686;;
+}  
+/* setinha para baixo das opçoes*/
+.select-wrapper .caret {
+    fill: white;
+}
+
+
+
+
+
+/* data javascript */
+.datepicker-date-display {
+    background-color: #00b4f8;
+   }
+   
+   .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+    color:#ffffff;
+   }
+   
+   .datepicker-table td.is-today {
+    color: #00b4f8;
+   }
+   
+   .datepicker-table td.is-selected {
+    background-color: #00b4f8;
+    color: white;
+   }
+   .datepicker-table td {
+    border-radius: 50%;
+    padding: 0;
+    color: white;
+}
+
+.datepicker-calendar-container {
+    background: #2a2a2a;
+}
+
+.datepicker-table td.is-outside-current-month, .datepicker-table td.is-disabled {
+    color: rgb(121, 121, 121);
+}
+.datepicker-controls .select-month input {
+    color: white;
+}
+.datepicker-controls .select-wrapper input {
+    color: white;
+}
+.month-next>svg{
+    fill: white;
+}
+.month-next{
+    background: none;
+}
+.month-prev>svg{
+    fill: white;
+}
+/* tabela da pagina */
+.highlight>tbody>tr ,thead>tr{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.109);
+}
+table.highlight>tbody>tr:hover {
+    background-color: rgba(134, 134, 134, 0.253);
+}
+a{
+    color: white;
+}
+/*  tabela com rolagem */
+.tab_scroll{  
+    overflow: auto;
+    height: 500px;
+    width: 100%;
+    scroll-behavior: smooth;
+    scrollbar-color: rgba(245, 245, 245, 0.164) #2a2a2a;
+    scrollbar-width: thin;
+}
+/* scroll bar*/
+.tab_scroll::-webkit-scrollbar-track-piece  { background: #2a2a2a; }
+.tab_scroll::-webkit-scrollbar-thumb        { background: rgba(245, 245, 245, 0.164); }
+

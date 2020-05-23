@@ -1,0 +1,11 @@
+body{
+    background: #2a2a2a;
+    color: white;
+}
+
+.highlight>tbody>tr ,thead>tr{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.109);                                /* whatever color you want */
+}
+table.highlight>tbody>tr:hover {
+    background-color: rgba(134, 134, 134, 0.253);      /* whatever color you want */
+} 

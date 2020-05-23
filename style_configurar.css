@@ -1,0 +1,12 @@
+#icon_config{
+    text-align: center;
+}
+#icon_config>div{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#icon_config>div>a,i{
+    color: white;
+    text-transform: uppercase;
+}
