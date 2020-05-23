@@ -2,7 +2,9 @@ body{
     background: #2a2a2a;
     color: white;
 }
-
+*{
+    outline-color: transparent;
+}
 /* Scroll da pagina*/
 ::-webkit-scrollbar-track {
     background-color: #F5F5F5;
