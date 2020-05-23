@@ -6,7 +6,7 @@ body{
 text-align: center;    
 margin: 100px auto;
 background-color: #2a2a2a;
-width: 400px;
+width: 425px;
 height: 568px;
 color: white;
 padding-top: 50px;
@@ -64,3 +64,13 @@ input#senha, input#usuario{
 .msg-cont {
     color:#9d9d9d;
 }
+
+@media(max-width: 990px){
+    .log-cont{
+       width: 100%;
+    }
+    body{
+        background-image: none;
+        background: #2a2a2a;
+    }
+   }
